@@ -11,6 +11,8 @@ import { TwoWayDataBidingComponent } from './two-way-data-biding/two-way-data-bi
 import {FormsModule} from "@angular/forms";
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
 import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ComponentePersonalizadoComponent } from './componente-personalizado/com
     PipeCustomizadoComponent,
     TwoWayDataBidingComponent,
     RenderizandoListasComponent,
-    ComponentePersonalizadoComponent // Para mostrar o component na tela tem que adicioná-lo no app.component.html
+    ComponentePersonalizadoComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent // Para mostrar o component na tela tem que adicioná-lo no app.component.html
   ],
   imports: [
     BrowserModule,
