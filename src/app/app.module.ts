@@ -15,6 +15,8 @@ import { ComponentePaiComponent } from './componente-pai/componente-pai.componen
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
 import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1.component';
 import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { CicloDeVidaPaiComponent } from './ciclo-de-vida-pai/ciclo-de-vida-pai.component';
 
 
 @NgModule({
@@ -31,6 +33,8 @@ import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.co
     ComponenteFilhoComponent,
     ExemploServicos1Component,
     ExemploServico2Component,
+    CicloDeVidaComponent,
+    CicloDeVidaPaiComponent,
     // Para mostrar o component na tela tem que adicioná-lo no app.component.html
   ],
   imports: [
