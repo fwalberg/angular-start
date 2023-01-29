@@ -13,6 +13,9 @@ import { RenderizandoListasComponent } from './renderizando-listas/renderizando-
 import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1.component';
+import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { ComponenteFilhoComponent } from './componente-filho/componente-filho.co
     RenderizandoListasComponent,
     ComponentePersonalizadoComponent,
     ComponentePaiComponent,
-    ComponenteFilhoComponent // Para mostrar o component na tela tem que adicioná-lo no app.component.html
+    ComponenteFilhoComponent,
+    ExemploServicos1Component,
+    ExemploServico2Component,
+    // Para mostrar o component na tela tem que adicioná-lo no app.component.html
   ],
   imports: [
     BrowserModule,
